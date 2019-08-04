@@ -1,0 +1,5 @@
+{
+    "mongoURI" : "mongodb+srv://yagizhan:14av5888@cluster0-x91ug.mongodb.net/mern_music_app?retryWrites=true&w=majority",
+    "jwtSecret" : "mp_myJwtScret"
+}
+
