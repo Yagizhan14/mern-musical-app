@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 mongoose.connect(
-  process.env.MONGO_URI,
+  process.env.MONGO_URI.toString(),
   { useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false },
   err =>
     err
